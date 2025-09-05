@@ -1713,6 +1713,7 @@ The last thing you'll build in this demo is the settings screen that provides es
      ```
 
   - Add the gear icon mapping for consistent cross-platform display. **Update `components/ui/IconSymbol.tsx`:**
+
     ```tsx
     // Fallback for using MaterialIcons on Android and web.
     import MaterialIcons from "@expo/vector-icons/MaterialIcons";
