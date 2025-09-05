@@ -51,35 +51,33 @@ Before following along, make sure you have the following setup:
 
 ### 1. Set up your Openfort Project
 
-Start by creating a new project in the [Openfort dashboard](https://dashboard.openfort.io/). Name your project "LuckyN", and then **Create project**:
+-  Start by creating a new project in the [Openfort dashboard](https://dashboard.openfort.io/). Name your project "LuckyN", and then **Create project**:
 
-![dashboard1.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/dashboard1.png)
+   ![dashboard1.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/dashboard1.png)
 
-Once created, your project will appear on the dashboard's list of projects. As seen below, select your project name:
+-  Once created, your project will appear on the dashboard's list of projects. As seen below, select your project name:
 
-![d2.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/d2.png)
+   ![d2.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/d2.png)
 
-The next page will show Openfort's onboarding screen, which gives you a quick overview of how to get started.
+-  The next page will show Openfort's onboarding screen, which gives you a quick overview of how to get started.
 
-![d3.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/d3.png)
+   ![d3.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/d3.png)
 
-Next, navigate to the **API Keys** tab in the left sidebar, and click on the **`Create Shield keys`** button to open a modal prompting you to create shield keys.
+-  Next, navigate to the **API Keys** tab in the left sidebar, and click on the **`Create Shield keys`** button to open a modal prompting you to create shield keys. The shield API keys we are creating will allow our players to interact with wallet functionality directly in our app, instead of connecting to MetaMask or other external wallets:
 
-The shield API keys we are creating will allow our players to interact with wallet functionality directly in our app, instead of connecting to MetaMask or other external wallets:
+   ![d5.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/d5.png)
 
-![d5.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/d5.png)
+-  In the modal, select **Create Shield keys*** to generate shield keys:
 
-In the modal, select **Create Shield keys*** to generate shield keys:
+   ![d6.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/d6.png)
 
-![d6.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/d6.png)
+-  Once the Shield key has been generated, copy the **`Shield encryption key`** and save it somewhere. This will be used in the next step:
 
-Once the Shield key has been generated, copy the **`Shield encryption key`** and save it somewhere. This will be used in the next step:
+   ![d7.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/d7.png)
 
-![d7.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/d7.png)
+-  Finally, copy the **`Publishable keys`** from both the Project keys and Shield key. This will be used in the next step:
 
-Finally, copy the **`Publishable keys`** from both the Project keys and Shield key. This will be used in the next step:
-
-![d8.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/d8.png)
+   ![d8.png](Using%20Openfort%20with%20React%20Native%20app%202647b44e5c72808ca294cc677c509130/d8.png)
 
 ### 2. Project Setup
 
