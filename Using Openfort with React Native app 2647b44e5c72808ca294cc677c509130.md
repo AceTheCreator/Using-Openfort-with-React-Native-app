@@ -28,7 +28,7 @@ When building a complete on-chain application, you need more than just authentic
 ### Developer Experience
 
 - **Gaming SDKs:** Onboard every type of gamer by creating user-friendly Web3 games that feel as familiar as traditional ones.
-- **Simple APIs:** Our **straightforward REST endpoints** make integration easy.
+- **Simple APIs:** [**Straightforward REST endpoints**](https://openfort.apidocumentation.com/reference) that make integration easy.
 - **Multiple SDKs:** We support a wide range of platforms, including **React, React Native, Unity, and Unreal Engine**.
 - **Open Source:** Our **open-source** approach gives you the flexibility to inspect, modify, and contribute to our codebase. This not only builds trust but also allows for a more secure and adaptable infrastructure.
 
